@@ -40,7 +40,7 @@ The dataset was provided as a SQL dump file and imported into MySQL. The data wa
 
 ## Dashboard Features
 
-- Total Revenue and Sales Quantity KPIs (~986M revenue, ~2M records)  
+- Total Revenue and Sales Quantity KPIs (~986M revenue, ~2M Sales Quantity)  
 - Revenue and sales distribution by market/region  
 - Top customers by revenue contribution  
 - Product-wise performance analysis  
