@@ -1,13 +1,13 @@
 # End-to-End Sales Data Pipeline & Analytics (MySQL → Power BI)
 
-This project demonstrates the design and implementation of an end-to-end data pipeline that transforms raw transactional data into structured analytical datasets and interactive business dashboards. It covers data modeling (star schema), data transformation, and visualization to support data-driven decision-making.
+This project demonstrates the design and implementation of a data workflow that transforms raw transactional data into structured analytical datasets and interactive dashboards. It covers data modeling (star schema), data transformation, and visualization to support data-driven decision-making.
 
 ---
 
 ## Project Overview
 
 **Tools Used:** MySQL, Power BI  
-**Project Type:** Data Analytics / Data Engineering (BI Pipeline)
+**Project Type:** Data Analytics (BI Pipeline)
 
 The dataset was provided as a SQL dump file and imported into MySQL. The data was then explored, structured, and transformed before being connected to Power BI for building interactive dashboards.
 
@@ -19,53 +19,43 @@ The dataset was provided as a SQL dump file and imported into MySQL. The data wa
 
 ---
 
-## Data Engineering Workflow
+## Workflow
 
-1. Imported raw transactional data into a MySQL database  
-2. Explored and validated data using SQL queries (joins, aggregations)  
-3. Designed a **star schema data model** (fact and dimension tables)  
-4. Performed data cleaning and transformation using Power Query  
-5. Established a connection between MySQL and Power BI  
-6. Built an interactive dashboard for reporting and analysis  
+1. Imported raw transactional data into MySQL.  
+2. Explored and validated data using SQL (joins, aggregations).  
+3. Designed a star schema data model (fact and dimension tables).  
+4. Performed data cleaning and transformation using Power Query.  
+5. Connected MySQL to Power BI for reporting.  
+6. Built interactive dashboards for analysis.  
 
 ---
 
 ## Data Modeling
 
-- Implemented a **star schema** with fact and dimension tables  
-- Structured data to optimize analytical queries and reporting performance  
-- Enabled efficient slicing of data across time, products, customers, and markets  
+- Designed a star schema with fact and dimension tables
+- Structured data to support efficient analytical queries and reporting
+- Enabled slicing of data across time, products, customers, and markets
 
 ---
 
 ## Dashboard Features
 
-- Total Revenue and Sales Quantity KPIs (~986M revenue, ~2M Sales Quantity)  
-- Revenue and sales distribution by market/region  
-- Top customers by revenue contribution  
-- Product-wise performance analysis  
-- Monthly and yearly sales trends  
-- Interactive filters (year and month slicers)  
-
----
-
-## Data Engineering Perspective
-
-- Designed a structured data model to support scalable analytics  
-- Built a data flow from database (MySQL) to visualization layer (Power BI)  
-- Applied data transformation techniques to convert raw data into analysis-ready format  
-- Simulated a real-world reporting pipeline used in business intelligence systems  
+- KPI tracking: ~₹986M revenue, ~2M sales quantity
+- Revenue distribution by market/region
+- Top customers by revenue contribution
+- Product-level performance analysis
+- Monthly and yearly sales trends
+- Interactive filters (year and month slicers)
 
 ---
 
 ## Skills Demonstrated
 
-- Writing SQL queries for data extraction, joins, and aggregations  
-- Designing star-schema data models (fact & dimension tables)  
-- Data transformation and preprocessing using Power Query  
-- Building KPI-driven dashboards in Power BI  
-- Connecting relational databases to BI tools for end-to-end reporting workflows  
-- Applying business logic to generate actionable insights  
+- SQL for data extraction, joins, and aggregations
+- Star schema design (fact & dimension tables)
+- Data transformation using Power Query
+- KPI dashboard development in Power BI
+- Connecting relational databases to BI tools
 
 ---
 
